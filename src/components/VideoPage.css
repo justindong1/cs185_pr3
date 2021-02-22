@@ -1,0 +1,43 @@
+.video-grid-container {
+    padding-top: 20px; 
+    display: grid; 
+    justify-items: center; 
+    justify-content: center; 
+    align-items: center; 
+    grid-gap: 1rem; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 600px));
+ }
+ 
+ .video-grid-item {
+    /* border: 1px solid;  */
+    padding: 1px;
+ }
+
+ .vid_modal {
+   display: none; /* Hidden by default */
+   position: fixed;
+   z-index: 1; /* Sits on top */
+   padding-top:15%;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%; 
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+   text-align: center; 
+   line-height: 100%; 
+}
+
+.top_button {
+   display: none;
+   position: fixed;
+   bottom: 20px;
+   right: 30px;
+   z-index: 2;
+   font-size: 14px;
+   background-color: grey;
+   color: white;
+   cursor: pointer;
+   padding: 10px;
+   border-radius: 6px;
+ }
