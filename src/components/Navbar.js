@@ -30,6 +30,10 @@ class Navbar extends Component {
                     id: 5,
                     hover: false
                 },
+                {
+                    id: 6, 
+                    hover: false
+                }
             ]
         }
     }

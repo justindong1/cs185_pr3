@@ -4,6 +4,7 @@ import ImagePage from './ImagePage';
 import VideoPage from './VideoPage';
 import TablePage from './TablePage';
 import Email from './Email';
+import Zoom from './Zoom/Zoom';
 import "./Navbar.css";
 
 class Body extends Component {
@@ -23,6 +24,9 @@ class Body extends Component {
             }
             else if (this.props.active_tab === 5) {
                 return <Email/>
+            }
+            else if (this.props.active_tab === 6) {
+                return <Zoom/>
             }
         }
         return(

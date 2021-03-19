@@ -1,0 +1,31 @@
+.taskContainer {
+    width: 450px;
+    height: 100px;
+    /* border: 1px solid black; */
+    background-color: #F5F4F3;
+    padding-top:6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height:10px;
+}
+
+.important {
+    border-left: 5px solid green;
+}
+
+.delete {
+    color: red;
+    cursor: pointer;
+}
+
+.alignLeft {
+    float: left;
+}
+
+.alignRight {
+    float: right; 
+}
+
+.zoomLink {
+    color: black;
+}
